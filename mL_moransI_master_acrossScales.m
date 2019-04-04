@@ -21,7 +21,7 @@ function[output] = mL_moransI_master_acrossScales(valueMap,varargin)
 % feature value of that spatial location (e.g. selectivity). [valueMap] is
 % topographical; the spatial relationships of indices in [valueMap] reflect
 % the spatial relationships of the features it represents. For a bivariate
-% feature (e.g. spatial x- and y-position), the each entry in the cell
+% feature (e.g. spatial x- and y-position), each entry in the cell
 % array corresponds to one variable (e.g. valueMap{1} = x-position,
 % valueMap{2} = y-position).
 %
